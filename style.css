@@ -1,0 +1,56 @@
+.gradient-background {
+    background: linear-gradient(300deg, #B983FF, #94B3FD, #94DAFF, #99FEFF);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.yuki{
+   border-radius: 50%;
+}
+
+.lead {
+    color: rgb(36, 107, 193);
+}
+
+.web {
+    border-radius: 100%;
+}
+
+.mid {
+    color: rgb(46, 134, 197);
+}
+
+#head {
+    color: #94DAFF;
+}
+
+.background {
+    background: linear-gradient(300deg, #071952, #088395, #37B7C3);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+.leed {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.Web {
+  border-radius: 100px;
+}
